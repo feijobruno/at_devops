@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1624490494132" clover="3.2.0">
-  <project timestamp="1624490494132" name="All files">
-    <metrics statements="314" coveredstatements="314" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0" elements="321" coveredelements="314" complexity="0" loc="314" ncloc="314" packages="4" files="8" classes="8"/>
+<coverage generated="1624570505920" clover="3.2.0">
+  <project timestamp="1624570505921" name="All files">
+    <metrics statements="315" coveredstatements="315" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0" elements="322" coveredelements="315" complexity="0" loc="315" ncloc="315" packages="4" files="8" classes="8"/>
     <package name="routes">
       <metrics statements="21" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="UsersRoutes.js" path="E:\01.Infnet\07.Engenharia_Softwares_Escalaveis\Seguranca\codigo\clinic-ms\user-ms\src\routes\UsersRoutes.js">
+      <file name="UsersRoutes.js" path="E:\01.Infnet\07.Engenharia_Softwares_Escalaveis\Devops\clinic-ms\user-ms\src\routes\UsersRoutes.js">
         <metrics statements="21" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -31,7 +31,7 @@
     </package>
     <package name="schemas">
       <metrics statements="32" coveredstatements="32" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="User.js" path="E:\01.Infnet\07.Engenharia_Softwares_Escalaveis\Seguranca\codigo\clinic-ms\user-ms\src\schemas\User.js">
+      <file name="User.js" path="E:\01.Infnet\07.Engenharia_Softwares_Escalaveis\Devops\clinic-ms\user-ms\src\schemas\User.js">
         <metrics statements="32" coveredstatements="32" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -69,7 +69,7 @@
     </package>
     <package name="security">
       <metrics statements="32" coveredstatements="32" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="authentication.js" path="E:\01.Infnet\07.Engenharia_Softwares_Escalaveis\Seguranca\codigo\clinic-ms\user-ms\src\security\authentication.js">
+      <file name="authentication.js" path="E:\01.Infnet\07.Engenharia_Softwares_Escalaveis\Devops\clinic-ms\user-ms\src\security\authentication.js">
         <metrics statements="32" coveredstatements="32" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -106,8 +106,8 @@
       </file>
     </package>
     <package name="services">
-      <metrics statements="229" coveredstatements="229" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
-      <file name="CreateUserService.js" path="E:\01.Infnet\07.Engenharia_Softwares_Escalaveis\Seguranca\codigo\clinic-ms\user-ms\src\services\CreateUserService.js">
+      <metrics statements="230" coveredstatements="230" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <file name="CreateUserService.js" path="E:\01.Infnet\07.Engenharia_Softwares_Escalaveis\Devops\clinic-ms\user-ms\src\services\CreateUserService.js">
         <metrics statements="53" coveredstatements="53" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -163,7 +163,7 @@
         <line num="52" count="1" type="stmt"/>
         <line num="53" count="1" type="stmt"/>
       </file>
-      <file name="DeleteUserService.js" path="E:\01.Infnet\07.Engenharia_Softwares_Escalaveis\Seguranca\codigo\clinic-ms\user-ms\src\services\DeleteUserService.js">
+      <file name="DeleteUserService.js" path="E:\01.Infnet\07.Engenharia_Softwares_Escalaveis\Devops\clinic-ms\user-ms\src\services\DeleteUserService.js">
         <metrics statements="31" coveredstatements="31" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -197,7 +197,7 @@
         <line num="30" count="1" type="stmt"/>
         <line num="31" count="1" type="stmt"/>
       </file>
-      <file name="GetUserService.js" path="E:\01.Infnet\07.Engenharia_Softwares_Escalaveis\Seguranca\codigo\clinic-ms\user-ms\src\services\GetUserService.js">
+      <file name="GetUserService.js" path="E:\01.Infnet\07.Engenharia_Softwares_Escalaveis\Devops\clinic-ms\user-ms\src\services\GetUserService.js">
         <metrics statements="38" coveredstatements="38" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -238,8 +238,8 @@
         <line num="37" count="1" type="stmt"/>
         <line num="38" count="1" type="stmt"/>
       </file>
-      <file name="LoginService.js" path="E:\01.Infnet\07.Engenharia_Softwares_Escalaveis\Seguranca\codigo\clinic-ms\user-ms\src\services\LoginService.js">
-        <metrics statements="39" coveredstatements="39" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="LoginService.js" path="E:\01.Infnet\07.Engenharia_Softwares_Escalaveis\Devops\clinic-ms\user-ms\src\services\LoginService.js">
+        <metrics statements="40" coveredstatements="40" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -279,8 +279,9 @@
         <line num="37" count="1" type="stmt"/>
         <line num="38" count="1" type="stmt"/>
         <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
       </file>
-      <file name="UpdateUserService.js" path="E:\01.Infnet\07.Engenharia_Softwares_Escalaveis\Seguranca\codigo\clinic-ms\user-ms\src\services\UpdateUserService.js">
+      <file name="UpdateUserService.js" path="E:\01.Infnet\07.Engenharia_Softwares_Escalaveis\Devops\clinic-ms\user-ms\src\services\UpdateUserService.js">
         <metrics statements="68" coveredstatements="68" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
