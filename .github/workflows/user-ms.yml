@@ -9,8 +9,7 @@ on:
     paths:
       - user-ms/**
   pull_request:
-    paths:
-      - user-ms/**
+    branches: [ main ]
 
 jobs:
   build:
