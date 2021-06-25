@@ -6,11 +6,13 @@ class DataBase {
         this.mongoDataBase();
     }
     mongoDataBase() {
-        const user = process.env.DB_USER;
+        // const user = process.env.DB_USER;
         const password = process.env.DB_PASSWORD;
         const dbName = process.env.DB_NAME;
 
-        this.mongoConnection = mongoose.connect(`mongodb+srv://${user}:${password}@cluster0.gmulm.mongodb.net/${dbName}?retryWrites=true&w=majority`, {
+        // this.mongoConnection = mongoose.connect(`mongodb+srv://${user}:${password}@cluster0.gmulm.mongodb.net/${dbName}?retryWrites=true&w=majority`, {
+            this.mongoConnection = mongoose.connect(`mongodb+srv://feijo:${password}@cluster0.gmulm.mongodb.net/${dbName}?retryWrites=true&w=majority`, {
+
             useNewUrlParser: true,
             useUnifiedTopology: true
         }).then(() => {

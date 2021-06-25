@@ -1,5 +1,5 @@
 import app from '../app';
 
-app.listen(8081, () => {
-    console.log("Servidor iniciado na porta 8081");
+app.listen(3001, () => {
+    console.log("Servidor iniciado na porta 3001");
 });
