@@ -37,7 +37,7 @@ class App{
                 },
                 servers: [
                     {
-                        url: `http://localhost:8082`,
+                        url: `http://localhost:3001`,
                     },
                 ],
             },
