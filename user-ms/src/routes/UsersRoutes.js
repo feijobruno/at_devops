@@ -17,4 +17,5 @@ routes.put('/users', authMiddleware, UpdateUserService.update);
 routes.delete('/users/:id', authMiddleware, DeleteUserService.delete);
 
 routes.post('/login', LoginService.store);
+
 export default routes;
