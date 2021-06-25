@@ -6,8 +6,6 @@ name: user-ms
 on:
   push:
     branches: [ main ]
-    paths:
-      - user-ms/**
   pull_request:
     branches: [ main ]
 
