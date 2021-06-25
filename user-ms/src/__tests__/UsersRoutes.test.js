@@ -2,21 +2,21 @@ import routes from "../routes/UsersRoutes"
 const axios = require('axios');
 
 test('GET /users', async () => {
-    const response = await axios('http://localhost:3000/users');
+    const response = await axios('http://127.0.0.1:3000/users');
     expect(response.status).toEqual(200);
 })
 
 
 test("POST /users 200 OK", async () => {
     const user = {
-        name: "Bruno 100",
-        email: "bruno.feijo100@live.com",
+        name: "Bruno 1000",
+        email: "bruno.feijo1000@live.com",
         password: "123456",
         originalName: "Feijó",
         fileName: "não"
     };
 
-    const response = await axios.post('http://localhost:3000/users', user);
+    const response = await axios.post('http://127.0.0.1:3000/users', user);
     expect(response.status).toEqual(200);
 });
 
